@@ -10,12 +10,18 @@
 button {
     height: 48px;
     width: 238px;
-    background-image: radial-gradient(#16498c, #ffffff)
+    background-image: linear-gradient(Purple 20%, #0c38d8 80%);
+    border:none;
+}
+button:hover {
+    height: 48px;
+    width: 238px;
+    background-image: linear-gradient(white, green);
+    border:none;
 }
 
 #adrian {
     margin: 20 30%;
-    height: 40%;
+    height: 40%;  
 }
-
 
