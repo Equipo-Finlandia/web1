@@ -1,0 +1,85 @@
+#lista2{ 
+    margin-left: 1400px;
+    
+}
+
+div#finlandia{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+div#finlandia:hover{ 
+    background-color: blue;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#jamaica{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+div#jamaica:hover{ 
+    background-color: green;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+div#gabon{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#gabon:hover{ 
+    background-color: yellow;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#haiti{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#haiti:hover{ 
+    background-color: red;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+div#nepal{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#nepal:hover{ 
+    background-color: purple;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+div#congo{ 
+    background-color: transparent;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+div#congo:hover{ 
+    background-color: orange;
+    margin-left: 650px;
+    margin-right: 650px;
+    
+}
+
+a{
+    text-decoration:none;   
+} 
