@@ -1,59 +1,114 @@
 <html>
- <head>
-   <meta charset="UTF-8"/>
-     <title>Horario</title>
- </head>
- <style type="text/css">
-    td
-    {text-align:center;
-    height:50px;
-    width:150px;}
-    
-    #lista{
-    margin: 0 auto;
-    height:48px;
-    width:1210px;
-    padding:0;
-    border: 0;
-    background:#E8E7E3;}
-  
-    a
-  		{text-decoration: none;
-  		color:black; text-decoration:none}
-        
-    button{
-    height:48px;
-    width:238px;}
-    
-  
-    table{
-    margin:20 25%;}
-    
-        
-    </style>
-<h1 align="center"> <a href="index.html">Finlandia Website</a></h1>
-    <div id="lista" align="center">
-            <button id="horario" onclick="window.location.href='horario.html'">Horario</button>
-            <button id="fecha" onclick="window.location.href='fecha.html'">Fecha Relevantes</button>
-            <button id="clase" onclick="window.location.href='clase.html'">Lista de Clase</button>
-            <button id="grupos" onclick="window.location.href='grupos.html'">Lista de Grupos</button>
-            <button id="formulario" onclick="window.location.href='formulario.html'">Formulario</button>
-    </div>
- <body>
-  <table border="1" align="center">
-   <h2 align="center"> Mañana/Goizez </h2>
-    <tr align="center">
-    <td></td><td><h3>8:20<br>9:15</h3></td><td><h3>9:20<br>10:15</h3></td><td><h3>10:20<br>11:15</h3></td><td><h3>11:40<br>12:35</h3></td><td><h3>12:40<br>13:35</h3></td><td><h3>13:40<br>14:35</h3></td>
-    </tr>
-    <tr align="center"><td><h3>Lunes<br>Astelehena</h3></td> <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td> <td>Antxon<br>FOL<br>AP/109</td> <td colspan="2">PatxiU<br>LMSGI<br>AP/109</td> <td>EdurneK<br>EdD<br>AP/109 </td></tr>
-    <tr align="center"><td><h3>Martes<br>Asteartea</h3></td> <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td> <td colspan="2">JavierS<br>BdD<br>AP/109</td><td>PatxiU<br>LMSGI<br>AP/109</td> <td>PatxiU<br>SisInf<br>AP/109</td></tr>
-    <tr align="center"><td><h3>Miércoles<br>Asteazkena</h3></td> <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td> <td>EdurneK<br>EdD<br>AP/109 </td> <td colspan="2">JavierS<br>BdD<br>AP/109</td><td>PatxiU<br>SisInf<br>AP/109</td></tr>
-    <tr align="center"><td><h3>Jueves<br>Osteguna</h3></td> <td colspan="2"> PatxiU<br>SisInf<br>AP/109 </td> <td>JavierS<br>BdD<br>AP/109</td><td>EdurneK<br>EdD<br>AP/109 </td><td>PatxiU<br>LMSGI<br>AP/109</td>  <td>Antxon<br>FOL<br>AP/109</td></tr>
-    <tr align="center"><td><h3>Viernes<br>Ostirala</h3></td> <td>JavierS<br>BdD<br>AP/109</td> <td c>JonI<br>Ingles<br>AP/109</td> <td> EdurneK<br>Progr-<br>AP/109 </td><td> EdurneK<br>EdD<br>AP/109 </td> <td>Antxon<br>FOL<br>AP/109</td> <td>PatxiU<br>SisInf<br>AP/109</td></tr>
-    <tr align="center">
-    <td></td><td><h3>8:20<br>9:15</h3></td><td><h3>9:20<br>10:15</h3></td><td><h3>10:20<br>11:15</h3></td><td><h3>11:40<br>12:35</h3></td><td><h3>12:40<br>13:35</h3></td><td><h3>13:40<br>14:35</h3></td>
-  </tr>
 
- </table>
- </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>Horario</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Botones.css" title="style" />
+</head>
+<h1 align="center"> <a href="index.html">Finlandia Website</a></h1>
+<div id="lista" align="center">
+    <button id="horario" onclick="window.location.href='horario.html'">Horario</button>
+    <button id="fecha" onclick="window.location.href='fecha.html'">Fechas Relevantes</button>
+    <button id="clase" onclick="window.location.href='clase.html'">Lista de Clase</button>
+    <button id="grupos" onclick="window.location.href='grupos.html'">Lista de Grupos</button>
+    <button id="formulario" onclick="window.location.href='formulario.html'">Formulario</button>
+</div>
+
+<body>
+    <table border="1" align="center">
+        <h2 align="center"> Mañana/Goizez </h2>
+        <tr align="center">
+            <td></td>
+            <td>
+                <h3>8:20<br>9:15</h3>
+            </td>
+            <td>
+                <h3>9:20<br>10:15</h3>
+            </td>
+            <td>
+                <h3>10:20<br>11:15</h3>
+            </td>
+            <td>
+                <h3>11:40<br>12:35</h3>
+            </td>
+            <td>
+                <h3>12:40<br>13:35</h3>
+            </td>
+            <td>
+                <h3>13:40<br>14:35</h3>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h3>Lunes<br>Astelehena</h3>
+            </td>
+            <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td>
+            <td>Antxon<br>FOL<br>AP/109</td>
+            <td colspan="2">PatxiU<br>LMSGI<br>AP/109</td>
+            <td>EdurneK<br>EdD<br>AP/109 </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h3>Martes<br>Asteartea</h3>
+            </td>
+            <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td>
+            <td colspan="2">JavierS<br>BdD<br>AP/109</td>
+            <td>PatxiU<br>LMSGI<br>AP/109</td>
+            <td>PatxiU<br>SisInf<br>AP/109</td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h3>Miércoles<br>Asteazkena</h3>
+            </td>
+            <td colspan="2"> EdurneK<br>Progr-<br>AP/109 </td>
+            <td>EdurneK<br>EdD<br>AP/109 </td>
+            <td colspan="2">JavierS<br>BdD<br>AP/109</td>
+            <td>PatxiU<br>SisInf<br>AP/109</td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h3>Jueves<br>Osteguna</h3>
+            </td>
+            <td colspan="2"> PatxiU<br>SisInf<br>AP/109 </td>
+            <td>JavierS<br>BdD<br>AP/109</td>
+            <td>EdurneK<br>EdD<br>AP/109 </td>
+            <td>PatxiU<br>LMSGI<br>AP/109</td>
+            <td>Antxon<br>FOL<br>AP/109</td>
+        </tr>
+        <tr align="center">
+            <td>
+                <h3>Viernes<br>Ostirala</h3>
+            </td>
+            <td>JavierS<br>BdD<br>AP/109</td>
+            <td c>JonI<br>Ingles<br>AP/109</td>
+            <td> EdurneK<br>Progr-<br>AP/109 </td>
+            <td> EdurneK<br>EdD<br>AP/109 </td>
+            <td>Antxon<br>FOL<br>AP/109</td>
+            <td>PatxiU<br>SisInf<br>AP/109</td>
+        </tr>
+        <tr align="center">
+            <td></td>
+            <td>
+                <h3>8:20<br>9:15</h3>
+            </td>
+            <td>
+                <h3>9:20<br>10:15</h3>
+            </td>
+            <td>
+                <h3>10:20<br>11:15</h3>
+            </td>
+            <td>
+                <h3>11:40<br>12:35</h3>
+            </td>
+            <td>
+                <h3>12:40<br>13:35</h3>
+            </td>
+            <td>
+                <h3>13:40<br>14:35</h3>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
 </html>
