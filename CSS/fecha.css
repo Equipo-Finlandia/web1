@@ -8,4 +8,6 @@ td {
 table {
 	margin:auto;
 	margin-top:20px;
+	border-collapse: collapse;
 }
+
