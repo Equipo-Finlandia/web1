@@ -1,18 +1,45 @@
-			#lista {
-			    margin: 0 auto;
-			    height: 48px;
-			    width: 1210px;
-			    padding: 0;
-			    border: 0;
-			    background: black;
-			}
+#lista {
+    margin: 0 auto;
+    height: 48px;
+    width: 1210px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
 
-			button {
-			    height: 48px;
-			    width: 238px;
-			}
+button {
+    height: 48px;
+    width: 238px;
+    background-color:#0d3d8b;
+    border:none;
+    color:antiquewhite;
+    font-weight: bolder;
+}
+button:hover {
+    height: 48px;
+    width: 238px;
+    background-color:#144ecc;
+    border:none;
+    font-weight: bolder;
+}
 
-			#adrian {
-			    margin: 20 30%;
-			    height: 40%;
-			}
+button:active {
+    height: 48px;
+    width: 238px;
+    background-color:white;
+    border:none;
+    color:black;
+    font-weight: bolder;
+}
+
+#adrian {
+    margin: 20 30%;
+    height: 40%;  
+}
+
+h1 a{
+    text-decoration: none;
+    font-family: fantasy;
+    color:blue;
+}
+
