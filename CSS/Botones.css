@@ -25,3 +25,7 @@ button:hover {
     height: 40%;  
 }
 
+h1{
+    text-decoration: none;
+    font-family: fantasy;
+}
