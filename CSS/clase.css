@@ -10,12 +10,12 @@ div#finlandia:hover{
 
 div#finlandia:hover a{
     color:white;
-    color:white;
     
 }
 
 div#jamaica{ 
     background-color: transparent;
+    text-align:center;
 }
 div#jamaica:hover{ 
     background-color: green;
@@ -28,6 +28,7 @@ div#jamaica:hover a{
 }
 div#gabon{ 
     background-color: transparent;
+	text-align:center;
     
 }
 
@@ -43,6 +44,7 @@ div#gabon:hover a{
 
 div#haiti{ 
     background-color: transparent;
+	text-align:center;
     
 }
 
@@ -57,6 +59,7 @@ div#haiti:hover a{
 }
 div#nepal{ 
     background-color: transparent;
+	text-align:center;
     
 }
 
@@ -71,6 +74,7 @@ div#nepal:hover a{
 }
 div#congo{ 
     background-color: transparent;
+	text-align:center;
     
 }
 
