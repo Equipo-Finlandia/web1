@@ -17,6 +17,8 @@ div#finlandia:hover{
 
 div#finlandia:hover a{
     color:white;
+    color:white;
+    
 }
 
 div#jamaica{ 
@@ -113,6 +115,8 @@ a{
     text-decoration:none;   
 } 
 
+
 fieldset {
     width: 100px
 }
+
