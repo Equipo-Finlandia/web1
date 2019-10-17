@@ -4,20 +4,32 @@
     width: 1210px;
     padding: 0;
     border: 0;
-    background: black;
+    background: transparent;
 }
 
 button {
     height: 48px;
     width: 238px;
-    background-image: linear-gradient(Purple 20%, #0c38d8 80%);
+    background-color:#0d3d8b;
     border:none;
+    color:antiquewhite;
+    font-weight: bolder;
 }
 button:hover {
     height: 48px;
     width: 238px;
-    background-image: linear-gradient(white, green);
+    background-color:#144ecc;
     border:none;
+    font-weight: bolder;
+}
+
+button:active {
+    height: 48px;
+    width: 238px;
+    background-color:white;
+    border:none;
+    color:black;
+    font-weight: bolder;
 }
 
 #adrian {
@@ -25,7 +37,9 @@ button:hover {
     height: 40%;  
 }
 
-h1{
+h1 a{
     text-decoration: none;
     font-family: fantasy;
+    color:blue;
 }
+
