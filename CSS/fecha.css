@@ -9,19 +9,7 @@ a {
 	color:black;
 	text-decoration:none
 }	
-#lista{
-	margin: 0 auto;
-	height:48px;
-	width:1210px;
-	padding:0;
-	border: 0;
-	background:#E8E7E3;
-}
 
-button {
-	height:48px;
-	width:238px;
-}
 #contenido {
 	position:relative;
 	bottom:15px;
@@ -38,4 +26,5 @@ td {
 
 table {
 	margin:auto;
+	margin-top:20px;
 }
