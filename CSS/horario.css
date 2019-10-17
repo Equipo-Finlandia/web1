@@ -1,0 +1,16 @@
+h3{
+    color:green;
+    font-family: sans-serif;
+}
+
+td{
+    color:blue;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    color:#0e7bf0;
+    text-shadow: 2px 1px #092c52;
+    background-color: rgba( 1, 8, 213, 0.249 );
+}
