@@ -10,7 +10,38 @@ td {text-align:center;
     width:200px;
 }
 
-#congo:hover {
+#Finlandia:hover {
+    background-color:blue;
+	width:166px;
+	height:166px;
+}
+
+#Jamaica:hover {
+    background-color:greenyellow;
+	width:166px;
+	height:166px;
+}
+
+#Gabon:hover {
+    background-color:yellow;
+	width:166px;
+	height:166px;
+}
+
+#Nepal:hover {
+    background-color:purple;
+	width:166px;
+	height:166px;
+}
+
+#Haiti:hover {
+    background-color:red;
+    	width:166px;
+	height:166px;
+}
+
+#Congo:hover {
+    background-color:orange;
 	width:166px;
 	height:166px;
 }
