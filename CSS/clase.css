@@ -1,17 +1,10 @@
-#lista2{ 
-    margin-left: 1400px;
-    
-}
 
 div#finlandia{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
+	text-align:center;
 }
 div#finlandia:hover{ 
     background-color: blue;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
 }
 
@@ -23,15 +16,11 @@ div#finlandia:hover a{
 
 div#jamaica{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
 }
 div#jamaica:hover{ 
     background-color: green;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
-    
+ 
 }
 
 div#jamaica:hover a{
@@ -39,15 +28,11 @@ div#jamaica:hover a{
 }
 div#gabon{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#gabon:hover{ 
     background-color: yellow;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
     
 }
@@ -58,15 +43,11 @@ div#gabon:hover a{
 
 div#haiti{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#haiti:hover{ 
     background-color: red;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
     
 }
@@ -76,15 +57,11 @@ div#haiti:hover a{
 }
 div#nepal{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#nepal:hover{ 
     background-color: purple;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
     
 }
@@ -94,15 +71,11 @@ div#nepal:hover a{
 }
 div#congo{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#congo:hover{ 
     background-color: orange;
-    margin-left: 650px;
-    margin-right: 650px;
     text-decoration-color:  white;
     
 }
@@ -117,6 +90,5 @@ a{
 
 
 fieldset {
-    width: 100px
+   margin: 0 40% 0 40%;
 }
-
