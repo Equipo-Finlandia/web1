@@ -1,86 +1,94 @@
-#lista2{ 
-    margin-left: 1400px;
-    
-}
 
 div#finlandia{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
+	text-align:center;
 }
 div#finlandia:hover{ 
     background-color: blue;
-    margin-left: 650px;
-    margin-right: 650px;
+    text-decoration-color:  white;
+}
+
+div#finlandia:hover a{
+    color:white;
     color:white;
     
 }
 
 div#jamaica{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
 }
 div#jamaica:hover{ 
     background-color: green;
-    margin-left: 650px;
-    margin-right: 650px;
-    
+    text-decoration-color:  white;
+ 
+}
+
+div#jamaica:hover a{
+    color:white;
 }
 div#gabon{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#gabon:hover{ 
     background-color: yellow;
-    margin-left: 650px;
-    margin-right: 650px;
+    text-decoration-color:  white;
     
+}
+
+div#gabon:hover a{
+    color:black;
 }
 
 div#haiti{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#haiti:hover{ 
     background-color: red;
-    margin-left: 650px;
-    margin-right: 650px;
+    text-decoration-color:  white;
     
+}
+
+div#haiti:hover a{
+    color:white;
 }
 div#nepal{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#nepal:hover{ 
     background-color: purple;
-    margin-left: 650px;
-    margin-right: 650px;
+    text-decoration-color:  white;
     
+}
+
+div#nepal:hover a{
+    color:white;
 }
 div#congo{ 
     background-color: transparent;
-    margin-left: 650px;
-    margin-right: 650px;
     
 }
 
 div#congo:hover{ 
     background-color: orange;
-    margin-left: 650px;
-    margin-right: 650px;
+    text-decoration-color:  white;
     
 }
 
+
+div#congo:hover a{
+    color:white;
+}
 a{
     text-decoration:none;   
 } 
+
+
+fieldset {
+   margin: 0 40% 0 40%;
+}
